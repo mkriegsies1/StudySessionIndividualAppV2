@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Mark Kriegsies" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kss-ND-OdB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StudySessionLaunchImage" translatesAutoresizingMaskIntoConstraints="NO" id="niA-lQ-AKU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="niA-lQ-AKU" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="2oI-T4-TO3"/>
+                            <constraint firstItem="Kss-ND-OdB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3WT-Z7-1j1"/>
+                            <constraint firstItem="Kss-ND-OdB" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="7Gb-gr-fIn"/>
+                            <constraint firstItem="Kss-ND-OdB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7wJ-bL-dgA"/>
+                            <constraint firstAttribute="bottom" secondItem="niA-lQ-AKU" secondAttribute="bottom" id="YQt-lU-66I"/>
+                            <constraint firstItem="niA-lQ-AKU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="eB7-sD-fdw"/>
+                            <constraint firstItem="niA-lQ-AKU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qEI-oA-9YK"/>
+                            <constraint firstAttribute="bottom" secondItem="Kss-ND-OdB" secondAttribute="bottom" id="wo3-tt-iJa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="StudySessionLaunchImage" width="1171.3548583984375" height="2081"/>
+    </resources>
+</document>
